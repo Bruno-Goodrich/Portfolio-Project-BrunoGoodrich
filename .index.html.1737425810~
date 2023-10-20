@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APCSP Portfolio</title>
+  </head>
+  <body>
+    <main class="container">
+      <nav>
+        <h2>My APCSP Portfolio</h2>
+        <ul>
+          <li>
+            <a href="#about">About Me</a>
+            <a href="#code">See Code</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Hello Visiter</h1>
+      <p>Welcome to my code portfolio</p>
+
+      <h3 id="about">About Me</h3>
+      <p>I am Bruno Lazaro Barroso Goodrich. I do things. Sometimes...</p>
+
+      <h3>Binary Seach Game</h3>
+      <p>About project</p>
+
+      <h3>Creating this Portfolio</h3>
+      <p>About Project</p>
+
+      <h3>Evolution of the Web</h3>
+      <p>About project</p>
+
+      <h3></h3>
+      <!--
+      <h3 id="code">JavaScript</h3>
+      <pre><code lang='tyescript'>
+        function sampleFunction () {
+          console.log('Hello world');
+        }      
+        if (x &lt; 2) {
+          console.log('Go x!');
+        }
+      </code></pre>
+  
+      <pre><code lang="html">
+        &lt;h2>Hello world&lt;/h2>
+        &lt;p>This is sample HTML!&lt;/p>
+      </code></pre>
+
+      <h3>Finally, a fragment imported with JS</h3>
+      <pre>
+        <code id="fragment" lang="js">
+        </code>
+      </pre>
+
+      <h3>We can add new features to a project with NPM
+      </h3>
+      <pre>
+        <code id="importExample" lang="sh"></code>
+      </pre>
+      -->
+      </main>
+
+      
+      
+      <script type="module" src="/main.js"></script>
+  </body>
+</html>

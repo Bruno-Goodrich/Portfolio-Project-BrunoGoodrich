@@ -4,14 +4,18 @@ import '@picocss/pico'
 
 // Our stylesheet.
 import './style.css'
-
+import BinarySearch from './code-fragments/BinarySearch.js?raw'
+document.querySelector('#BinarySearch').textContent = BinarySearch;
 
 // We can import raw code fragments for samples, like this:
-import fragment from './code-fragments/fragment.js?raw'
-document.querySelector('#fragment').textContent = fragment;
-
+/*import fragment from './code-fragments/fragment.js?raw'
+let fragEl = document.querySelector('#fragment');
+if (fragEl) {
+  fragEl.textContent = fragment;
+}
 import importExample from './code-fragments/importExample.sh?raw'
 document.querySelector('#importExample').textContent = importExample;
+*/
 
 // A code highlighter
 import hljs from 'highlight.js'
