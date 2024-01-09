@@ -7,6 +7,15 @@ import './style.css'
 import BinarySearch from './code-fragments/BinarySearch.js?raw'
 document.querySelector('#BinarySearch').textContent = BinarySearch;
 
+import CardPicker from './code-fragments/CardPicker.js?raw';
+document.querySelector('#CardPicker').textContent = CardPicker;
+
+import Card from './code-fragments/Card.css?raw'
+document.querySelector('#Card').textContent = Card
+
+import HandValue from './code-fragments/HandValue.ts?raw'
+document.querySelector('#HandValue').textContent = HandValue
+
 // We can import raw code fragments for samples, like this:
 /*import fragment from './code-fragments/fragment.js?raw'
 let fragEl = document.querySelector('#fragment');

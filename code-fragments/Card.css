@@ -1,0 +1,18 @@
+.card {
+    width: 170px;
+    height: 250px;
+    border: 1px solid white;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 8px;
+    margin: 8px;
+    background-color: white;
+    color: black;
+}
+.top-right {
+    margin-left: auto;
+}
+.ctr {
+    text-align: center;
+}
