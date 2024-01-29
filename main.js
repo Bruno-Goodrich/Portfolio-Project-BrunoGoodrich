@@ -14,6 +14,9 @@ document.querySelector('#CardPicker').textContent = CardPicker;
 import HandValue from './code-fragments/HandValue.ts?raw'
 document.querySelector('#HandValue').textContent = HandValue
 
+import Sad from './code-fragments/DepressedFilter.js?raw'
+document.querySelector('#Sad').textContent = Sad
+
 // We can import raw code fragments for samples, like this:
 /*import fragment from './code-fragments/fragment.js?raw'
 let fragEl = document.querySelector('#fragment');
