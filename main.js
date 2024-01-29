@@ -10,8 +10,6 @@ document.querySelector('#BinarySearch').textContent = BinarySearch;
 import CardPicker from './code-fragments/CardPicker.js?raw';
 document.querySelector('#CardPicker').textContent = CardPicker;
 
-import Card from './code-fragments/Card.css?raw'
-document.querySelector('#Card').textContent = Card
 
 import HandValue from './code-fragments/HandValue.ts?raw'
 document.querySelector('#HandValue').textContent = HandValue
