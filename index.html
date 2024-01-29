@@ -114,10 +114,13 @@
       <h4>Example Three:</h4>
 
       <h3>Image Processing</h3>
+      <h4>Here is the Link to the Filters:</h4>
+      <a href="https://bruno-g-apcsp-filters.netlify.app">Filters</a>
+      <h4>Overview</h4>
       <p>In this project I wast tasked with making filters for images. I did this by manipulating the red, green, blue, and alpha values of the pixels that make up the image. I created a sad filter that makes the image more blue and adds a vignette with code written by the one and only Tom Hinkle. I also created a color shift filter that kinda works and has options to change the R,G,B, and alpah added. There is also a brightness that was made as an introduction to how filters works.</p>
       <h4>Code Example</h4>
       <pre><code id="Sad" lang="js"></code></pre>
-      <p></p>
+      <p>This is the code for the sad filter. It changes the image to be more blue with a vignette. The filter itself is an object with two methods. The first method is name which is, well, it's name and the second is the apply method which does the work of creating the filter. The way it works is by getting the array of pixels within the image and adding 50 to the red value of a pixel, 100 to the blue value, 50 to the green value, and subtracting 100 from the alpha value. It knows these values by using modulo of the 4 items of the pixel's array and saying if its the first item it is the red value, if it's the second it's green, third is blue, fourth is alpha. The last part calls upon another filter that adds a vignette and it's apply method to appear on the filtered image. Then it will be called and apply the filter.</p>
 
       <h3>Innovations and Impacts</h3>
       <p>about project</p>
