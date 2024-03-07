@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>APCSP Portfolio</title>
-    <script type="module" crossorigin src="/assets/index-27fcd6ca.js"></script>
-    <link rel="stylesheet" href="/assets/index-255ed193.css">
+    <script type="module" crossorigin src="/assets/index-58085a2c.js"></script>
+    <link rel="stylesheet" href="/assets/index-2cf699f2.css">
   </head>
   <body>
     <main class="container">
@@ -78,18 +78,51 @@
           font-size:20px;
         }
       </code></pre>
-      <p>The CSS i pretty simple. The body's backgroungd color is why this page is dark gray.Any h1 tag in the html has white text and has a font size of 40. Any h2 tag has white text. The h3 tag has the most interesting css. All text is a mintcream color(off white) and they have a rounded border that is 3 pixels solid in the same color as the text. Border radius is what makes the border rounded and the padding is the amount space between the border and text inbetween. The paragraphs are all set to have a font size of 20 and be in the color of gainsboro(light gray yous see here). And thats it for the CSS.</p>
+      <p>The CSS i pretty simple. The body's backgroungd color is why this page is dark gray. Any h1 tag in the html has white text and has a font size of 40. Any h2 tag has white text. The h3 tag has the most interesting css. All text is a mintcream color(off white) and they have a rounded border that is 3 pixels solid in the same color as the text. Border radius is what makes the border rounded and the padding is the amount space between the border and text inbetween. The paragraphs are all set to have a font size of 20 and be in the color of gainsboro(light gray yous see here). And thats it for the CSS.</p>
+      
       <h3>Evolution of the Web</h3>
       <p>About project</p>
 
       <h3>Mash Game</h3>
-      <p>about project</p>
-
-      <h3>Social Media Research</h3>
-      <p>About projects</p>
+      <h4>Overview</h4>
+      <p>The goal of this project was to make a game using lists. I chose to create black jack using a list to make the cards. I first made the cards and then made a function to pull a random card from the deck. I then created another list for the players hand, and the random cards pulled from the deck were put there. I then made a another funciton to count the hands value. I then repeated this to create a cpu hand. Things I can improve would be to keep the cpu hands secret and to let the player stand.</p>
+      <h4>Example One</h4>
+      <pre><code id="CardPicker" lang="js">
+      </code></pre>
+      <div class="requirements" style="columns: 2; white-space: nowrap; pointer-events: none;">
+        <div><input type="checkbox" checked> Correcting Errors</div>
+        <div><input type="checkbox" checked> Variables and Assignment</div>
+        <div><input type="checkbox" checked> Procedures</div>
+        <div><input type="checkbox" checked> Strings</div>
+        <div><input type="checkbox" checked> Lists</div>
+        <div><input type="checkbox"> Iteration</div>
+        <div><input type="checkbox" checked> State</div>
+        <div><input type="checkbox"> Callbacks</div>
+    </div>
+      <p>...</p>
+      <h4>Example Two:</h4>
+     <pre><code id="HandValue" lang="ts"></code></pre>
+      <div class="requirements" style="columns: 2; white-space: nowrap; pointer-events: none;">
+        <div><input type="checkbox"> Correcting Errors</div>
+        <div><input type="checkbox"> Variables and Assignment</div>
+        <div><input type="checkbox"> Procedures</div>
+        <div><input type="checkbox"> Strings</div>
+        <div><input type="checkbox"> Lists</div>
+        <div><input type="checkbox"> Iteration</div>
+        <div><input type="checkbox"> State</div>
+        <div><input type="checkbox" checked> Callbacks</div>
+    </div>
+      <p>...</p>
+      <h4>Example Three:</h4>
 
       <h3>Image Processing</h3>
-      <p>about project</p>
+      <h4>Here is the Link to the Filters:</h4>
+      <a href="https://bruno-g-apcsp-filters.netlify.app">Filters</a>
+      <h4>Overview</h4>
+      <p>In this project I wast tasked with making filters for images. I did this by manipulating the red, green, blue, and alpha values of the pixels that make up the image. I created a sad filter that makes the image more blue and adds a vignette with code written by the one and only Tom Hinkle. I also created a color shift filter that kinda works and has options to change the R,G,B, and alpah added. There is also a brightness that was made as an introduction to how filters works.</p>
+      <h4>Code Example</h4>
+      <pre><code id="Sad" lang="js"></code></pre>
+      <p>This is the code for the sad filter. It changes the image to be more blue with a vignette. The filter itself is an object with two methods. The first method is name which is, well, it's name and the second is the apply method which does the work of creating the filter. The way it works is by getting the array of pixels within the image and adding 50 to the red value of a pixel, 100 to the blue value, 50 to the green value, and subtracting 100 from the alpha value. It knows these values by using modulo of the 4 items of the pixel's array and saying if its the first item it is the red value, if it's the second it's green, third is blue, fourth is alpha. The last part calls upon another filter that adds a vignette and it's apply method to appear on the filtered image. Then it will be called and apply the filter.</p>
 
       <h3>Innovations and Impacts</h3>
       <p>about project</p>
