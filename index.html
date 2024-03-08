@@ -114,8 +114,9 @@
       <h4>Example Three:</h4>
 
       <h3>Image Processing</h3>
-      <h4>Here is the Link to the Filters:</h4>
+      <h4>Here is the Link to the Filters and Code:</h4>
       <a href="https://bruno-g-apcsp-filters.netlify.app">Filters</a>
+      <br/><a href="https://github.com/IACS-CS/image-filters-Bruno-Goodrich">Github Repository</a>
       <h4>Overview</h4>
       <p>In this project I wast tasked with making filters for images. I did this by manipulating the red, green, blue, and alpha values of the pixels that make up the image. I created a sad filter that makes the image more blue and adds a vignette with code written by the one and only Tom Hinkle. I also created a color shift filter that kinda works and has options to change the R,G,B, and alpah added. There is also a brightness that was made as an introduction to how filters works.</p>
       <h4>Code Example</h4>
@@ -130,7 +131,16 @@
       <a href="https://65e61965009c3c00080d2c68--buscrashdata.netlify.app/">Graph/Data</a>
       <br><a href="https://github.com/LucienRowland/data-viz-pulic-template">Github Repository</a>
       <h4>Overview</h4>
-      <p>In this project we had to make charts/graphs using car crash data from Massachusets. This was a group project so i worked with My pals Lucien and Matt. We chose to focus our data on bus crashes ad make a barchart of how many crashes happen in each town.</p>
+      <p>In this project we had to make charts/graphs using car crash data from Massachusets. This was a group project so I worked with My pals Lucien and Matt. We chose to focus our data on bus crashes ad make a barchart of how many crashes happen in each town. I created the graph and helped create the list of towns in each county. I mainly did coding and debugging.</p>
+      <h4>Purpose and Function</h4>
+      <p>The purpose of this project was to to allow a user to be able to see the number of school bus accidents in Massachusetts. The function of the project was to make a chart that displays the number of of school bus road incidents in Massachusetts in each town. It sorts these towns in counties to allow easier searchin and a smaller, easier to read graph.</p>
+      <h4>Code Example one</h4>
+      <pre><code id="BusCrashTowns" lang="ts"></code></pre>
+      <p>To put it simply, this function takes the list of town names and counts the crashes in each town. It then makes an array with the name of the town and the amount of crashes in it. More specifically the newPieCounts and newPieData create a array of objects that consist of the name of a town and the number crashes. The filteredData function is what does the counting. It looks through the data, only at the part of the rows labled as "City Town Name", and adds each name it finds as the name of the object in the array. When it finds a repeat of that name it adds one to the crashs number in the object. So once it finds a town like Lowell, it will add an object to the array with the name and a crash, once it finds Lowell in the csv data again, it will add one to the crash counter. It then puts these obects into the array at the start.</p>
+      <h4>Code Example two</h4>
+      <pre><code id="townDropDown" lang="ts"></code></pre>
+      <p>In this example, this snippet of code is what makes the drop down menu function. On the site you can chose which county to look at using a drop down menu. The code here isn't to create it but to make it function. It says that if the option for this county is slected in the drop down, then change the array of data to only count the names of towns that are in the array of the county. Not pictured here is the arrays we created for the counties, they're just strings of towns in the counties. This snippet of course is not the full function, just the Bs to make it short.</p>
+
 
       <h3>Systems Simmulations</h3>
       <p>about project</p>

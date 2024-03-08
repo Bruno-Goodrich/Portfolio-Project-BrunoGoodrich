@@ -10,12 +10,17 @@ document.querySelector('#BinarySearch').textContent = BinarySearch;
 import CardPicker from './code-fragments/CardPicker.js?raw';
 document.querySelector('#CardPicker').textContent = CardPicker;
 
-
 import HandValue from './code-fragments/HandValue.ts?raw'
 document.querySelector('#HandValue').textContent = HandValue
 
 import Sad from './code-fragments/DepressedFilter.js?raw'
 document.querySelector('#Sad').textContent = Sad
+
+import BusCrashTowns from './code-fragments/BusCrashTown.ts?raw'
+document.querySelector('#BusCrashTowns').textContent = BusCrashTowns
+
+import townDropDown from './code-fragments/townDropDown.js?raw'
+document.querySelector('#townDropDown').textContent = townDropDown
 
 // We can import raw code fragments for samples, like this:
 /*import fragment from './code-fragments/fragment.js?raw'
