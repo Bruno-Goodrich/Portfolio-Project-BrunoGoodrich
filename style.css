@@ -20,6 +20,15 @@ h3{
   padding:10px;
 }
 
+h4{
+  color:mintcream;
+}
+
+h5{
+  color: mintcream;
+  font-size: 20;
+}
+
 p {
   color: gainsboro;
   font-size:20px;
