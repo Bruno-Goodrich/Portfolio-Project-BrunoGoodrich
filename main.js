@@ -22,6 +22,9 @@ document.querySelector('#BusCrashTowns').textContent = BusCrashTowns
 import townDropDown from './code-fragments/townDropDown.js?raw'
 document.querySelector('#townDropDown').textContent = townDropDown
 
+import diseaseModel from './code-fragments/DiseaseModel.ts?raw'
+document.querySelector('#diseaseModel').textContent = diseaseModel
+
 // We can import raw code fragments for samples, like this:
 /*import fragment from './code-fragments/fragment.js?raw'
 let fragEl = document.querySelector('#fragment');
