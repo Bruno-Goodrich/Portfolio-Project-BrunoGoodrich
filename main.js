@@ -25,6 +25,9 @@ document.querySelector('#townDropDown').textContent = townDropDown
 import diseaseModel from './code-fragments/DiseaseModel.ts?raw'
 document.querySelector('#diseaseModel').textContent = diseaseModel
 
+import updatePopulation from './code-fragments/updatePatient.tsx?raw'
+document.querySelector('#updatePopulation').textContent = updatePopulation
+
 // We can import raw code fragments for samples, like this:
 /*import fragment from './code-fragments/fragment.js?raw'
 let fragEl = document.querySelector('#fragment');
